@@ -17,7 +17,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        breturn = (Button)findViewById(R.id.butonReturn);
+        breturn = findViewById(R.id.butonReturn);
 
         breturn.setOnClickListener(new View.OnClickListener() {
             @Override

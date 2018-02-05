@@ -20,17 +20,11 @@ public class RegistrarmeActivity extends AppCompatActivity implements View.OnCli
 
     Button bregistrarme;
     EditText createemail,createpass,createpassrep;
+    Intent intent;
 
 
 
     FirebaseAuth.AuthStateListener mAuthStateListener;
-
-
-
-
-
-
-
 
 
     @Override
@@ -38,12 +32,12 @@ public class RegistrarmeActivity extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrarme);
 
-        bregistrarme= (Button)findViewById(R.id.butonRegistrar);
+        bregistrarme= findViewById(R.id.butonRegistrar);
 
 
-        createemail = (EditText) findViewById(R.id.editEmail);
-        createpass = (EditText) findViewById(R.id.editPass);
-        createpassrep = (EditText) findViewById(R.id.editPass);
+        createemail = findViewById(R.id.editEmail);
+        createpass = findViewById(R.id.editPass);
+        createpassrep = findViewById(R.id.editPass);
 
         bregistrarme.setOnClickListener(this);
 
@@ -82,7 +76,7 @@ public class RegistrarmeActivity extends AppCompatActivity implements View.OnCli
 
                     registrar(emailReg, passReg);
                     Log.i("Creacion", "Creación"+ passReg + emailReg);
-                    Intent intent = new Intent(RegistrarmeActivity.this, Main2Activity.class);
+                    intent = new Intent(RegistrarmeActivity.this, Main2Activity.class);
                     startActivity(intent);
 
                 }else {

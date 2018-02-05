@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bentrar = (Button) findViewById(R.id.butonEntrar);
-        bregistrarme = (Button) findViewById(R.id.butonRegistrar);
+        bentrar = findViewById(R.id.butonEntrar);
+        bregistrarme = findViewById(R.id.butonRegistrar);
 
-        editemail = (EditText) findViewById(R.id.insertEmail);
-        editpass = (EditText) findViewById(R.id.insertpass);
+        editemail = findViewById(R.id.insertEmail);
+        editpass = findViewById(R.id.insertpass);
 
         bregistrarme.setOnClickListener(this);
         bentrar.setOnClickListener(this);
