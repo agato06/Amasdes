@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883671340616",
+    "firebase_url": "https://amasdesconnect2.firebaseio.com",
+    "project_id": "amasdesconnect2",
+    "storage_bucket": "amasdesconnect2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883671340616:android:2f1c477ab57b9974",
+        "android_client_info": {
+          "package_name": "com.example.alexgato.amasdesconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883671340616-phdcpt46hu1ouo7bubhg79fmkcdi975b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alexgato.amasdesconnect",
+            "certificate_hash": "7938eb81a3602627a5b0a381e564464a5b5bd039"
+          }
+        },
+        {
+          "client_id": "883671340616-e0vftqo7c7n96cvejdout5rnr9rsbjq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVIl62IWcHXn57IVpFm_epwT9LCcPynd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883671340616-e0vftqo7c7n96cvejdout5rnr9rsbjq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

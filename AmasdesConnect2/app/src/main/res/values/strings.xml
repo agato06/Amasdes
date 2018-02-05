@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AmasdesConnect</string>
+    <string name="title_activity_initial">Initial</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="cms_comida">Comida</string>
+    <string name="cms_cantidad">Cantidad</string>
+    <string name="cms_asistencia">Asistencia</string>
+    <string name="cms_reparto">Reparto</string>
+    <string name="cms_confirmar">Confirmar</string>
+    <string name="cms_butonEntrar">Entrar</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="cms_textAsistance">Confirmar asistencia</string>
+    <string name="cms_textReparto">Confirmar reparto</string>
+    <string name="cms_textTipoDeComida">Tipo de comida</string>
+    <string name="cms_textpassword">Contraseña</string>
+    <string name="cms_insertEmail">Email</string>
+    <string name="cms_textRegistrarme">Registrarme</string>
+    <string name="cms_apellidos">Apellidos</string>
+    <string name="cms_nombre">Nombre</string>
+    <string name="cms_telefono">Telefono</string>
+    <string name="repite_la_contrasena">Repite la contraseña</string>
+    <string name="cms_nacimiento">Fecha de Nacimiento</string>
+
+
+</resources>
